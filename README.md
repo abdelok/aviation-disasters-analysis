@@ -41,42 +41,7 @@ This project transforms a complex, messy dataset into clear, actionable insights
 
 ## Highlight: The 9/11 Effect
 
-One of the most compelling findings of this analysis is the **measurable impact of September 11, 2001** on aviation safety metrics. By splitting the dataset pre and post 9/11, we can quantify how global aviation security reforms changed fatality rates.
-
-```
-Average daily fatalities BEFORE 9/11: [pre_value]
-Average daily fatalities AFTER 9/11:  [post_value]
-```
-
-The post-9/11 drop reflects tightened security protocols, stricter regulations, and a global shift in how aviation safety is managed.
-
----
-
-## Visualizations
-
-### Top 10 Countries by Number of Accidents
-![Countries](outputs/accidents_by_country.png)
-
-### Accidents Over Time (by Year)
-![Yearly trend](outputs/accidents_by_year.png)
-
-### Accidents by Day of the Week
-![Day of week](outputs/accidents_by_day.png)
-
-### Top 10 Aircraft Types by Fatalities
-![Aircraft types](outputs/aircraft_fatalities.png)
-
-### Top 5 Operators with Most Accidents
-![Operators](outputs/accidents_by_operator.png)
-
-### Daily Fatalities — Before and After 9/11
-![9/11 impact](outputs/sept11_impact.png)
-
-### Correlation: Accidents vs Deaths by Aircraft Type
-![Scatter plot](outputs/correlation_scatter.png)
-
-### Global Aviation Accidents Map
-![World map](outputs/world_map.png)
+One of the most compelling findings of this analysis is the **measurable impact of September 11, 2001** on aviation safety metrics. By splitting the dataset pre and post 9/11, we can quantify how global aviation security reforms changed fatality rates — with a clear and measurable drop in average daily fatalities after that date.
 
 ---
 
@@ -110,16 +75,7 @@ aviation-disasters-analysis/
 ├── data/
 │   └── aviation-accidents.csv
 ├── notebooks/
-│   └── analysis.ipynb
-├── outputs/
-│   ├── accidents_by_country.png
-│   ├── accidents_by_year.png
-│   ├── accidents_by_day.png
-│   ├── aircraft_fatalities.png
-│   ├── accidents_by_operator.png
-│   ├── sept11_impact.png
-│   ├── correlation_scatter.png
-│   └── world_map.png
+│   └── 7_Progetto_Analisi_disastri_aerei.ipynb
 └── README.md
 ```
 
@@ -133,7 +89,7 @@ pip install pandas numpy matplotlib geopandas jupyter
 jupyter notebook
 ```
 
-Open `notebooks/analysis.ipynb` and run all cells.
+Open `notebooks/7_Progetto_Analisi_disastri_aerei.ipynb` and run all cells.
 
 > **Note:** The geographic map requires a shapefile (`ne_110m_admin_0_countries.shp`). Download it free from [Natural Earth](https://www.naturalearthdata.com/downloads/110m-cultural-vectors/).
 
